@@ -17,5 +17,5 @@
 }
 
 .btn-task {
-  @apply p-1 w-[75px];
+  @apply p-[4px] min-w-[75px];
 }
