@@ -7,3 +7,15 @@
   padding: 2rem;
   text-align: center;
 }
+
+.btn-primary {
+  @apply bg-[#e75656] rounded-xl p-4 font-bold cursor-pointer transition;
+}
+
+.btn-primary:hover {
+  @apply bg-[#e64646];
+}
+
+.btn-task {
+  @apply p-1 w-[75px];
+}
