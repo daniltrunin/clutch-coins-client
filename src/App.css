@@ -9,11 +9,11 @@
 }
 
 .btn-primary {
-  @apply bg-[#e75656] rounded-xl p-4 font-bold cursor-pointer transition;
+  @apply bg-gradient-to-r from-[#9F0D24] to-[#EB3460] rounded-3xl p-4 font-bold cursor-pointer transition;
 }
 
 .btn-primary:hover {
-  @apply bg-[#e64646];
+  @apply bg-gradient-to-r from-[#9f0d23ce] to-[#eb345fcf];
 }
 
 .btn-task {

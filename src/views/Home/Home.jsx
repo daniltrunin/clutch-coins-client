@@ -7,15 +7,13 @@ const Home = () => {
   return (
     <>
       <div className="mb-4 flex flex-col items-center">
+        <button className="border-[1px] border-[#FFEAEA4D] py-3 px-6 rounded-4xl text-[#FF8B8D] font-semibold bg-[#00000070] drop-shadow-xs cursor-pointer">
+          Нажми на меня
+        </button>
         <img className="max-w-[50%]" src={animation} alt="coin animation" />
-        <h1 className="font-black text-4xl mb-1">Clutch Coins</h1>
-        <p className="text-white/70 font-medium">
-          Earn coins and exchange them for cases, stickers and skins for Counter
-          Strike 2.
-        </p>
       </div>
       <Balance />
-      <Tasks />
+      {/* <Tasks /> */}
     </>
   );
 };
