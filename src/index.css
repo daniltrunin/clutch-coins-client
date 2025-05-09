@@ -34,4 +34,7 @@ body {
   min-height: 100vh;
 
   align-items: start;
+
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
 }
