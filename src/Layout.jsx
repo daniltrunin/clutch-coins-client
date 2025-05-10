@@ -12,12 +12,14 @@ const Layout = () => {
         <Outlet />
       </main>
 
-      <div className="fixed bottom-0 left-0 w-full bg-black/25 py-1">
+      <div className="fixed bottom-0 left-0 w-full bg-black/25">
         <nav className="flex justify-around py-3 px-16 w-full">
           <Link to="/">
             <a>
               <img
-                className={location.pathname === "/" ? "" : "brightness-50"}
+                className={
+                  location.pathname === "/" ? "w-5" : "brightness-50 w-5"
+                }
                 src={home}
               />
             </a>
@@ -26,7 +28,7 @@ const Layout = () => {
             <a>
               <img
                 className={
-                  location.pathname === "/profile" ? "" : "brightness-50"
+                  location.pathname === "/profile" ? "w-5" : "brightness-50 w-5"
                 }
                 src={profile}
               />
